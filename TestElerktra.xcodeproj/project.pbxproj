@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		1AB1A00127AAEC7400029FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A00027AAEC7400029FE9 /* AppDelegate.swift */; };
 		1AB1A00327AAEC7400029FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A00227AAEC7400029FE9 /* SceneDelegate.swift */; };
-		1AB1A00527AAEC7400029FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A00427AAEC7400029FE9 /* ViewController.swift */; };
-		1AB1A00827AAEC7400029FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A00627AAEC7400029FE9 /* Main.storyboard */; };
+		1AB1A00527AAEC7400029FE9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A00427AAEC7400029FE9 /* HomeVC.swift */; };
+		1AB1A00827AAEC7400029FE9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A00627AAEC7400029FE9 /* Home.storyboard */; };
 		1AB1A00A27AAEC7700029FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A00927AAEC7700029FE9 /* Assets.xcassets */; };
 		1AB1A00D27AAEC7700029FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A00B27AAEC7700029FE9 /* LaunchScreen.storyboard */; };
 		1AB1A01827AAEC7800029FE9 /* TestElerktraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A01727AAEC7800029FE9 /* TestElerktraTests.swift */; };
 		1AB1A02227AAEC7800029FE9 /* TestElerktraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A02127AAEC7800029FE9 /* TestElerktraUITests.swift */; };
 		1AB1A02427AAEC7800029FE9 /* TestElerktraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A02327AAEC7800029FE9 /* TestElerktraUITestsLaunchTests.swift */; };
+		1AB1A03627AAEDAB00029FE9 /* TvShowsDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A03427AAEDAB00029FE9 /* TvShowsDb.xcdatamodeld */; };
+		1AB1A03827AAFDC200029FE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A03727AAFDC200029FE9 /* Constants.swift */; };
+		1AB1A03A27AB008800029FE9 /* TvShowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A03927AB008800029FE9 /* TvShowProvider.swift */; };
+		1AB1A03D27AB022000029FE9 /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A03C27AB022000029FE9 /* TvShow.swift */; };
+		1AB1A04427AB141A00029FE9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A04227AB141A00029FE9 /* CustomTableViewCell.swift */; };
+		1AB1A04527AB141A00029FE9 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A04327AB141A00029FE9 /* CustomTableViewCell.xib */; };
+		1AB1A04727AB14DF00029FE9 /* TvShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A04627AB14DF00029FE9 /* TvShowVC.swift */; };
+		1AB1A04927AB14EC00029FE9 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A04827AB14EC00029FE9 /* FavoriteVC.swift */; };
+		1AB1A05927AB254800029FE9 /* UIImage+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A05827AB254800029FE9 /* UIImage+LoadImage.swift */; };
+		1AB1A06027AB2FFB00029FE9 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A05F27AB2FFB00029FE9 /* DataBaseHelper.swift */; };
+		1AB1A06F27AB7F1D00029FE9 /* ShowTv+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A06D27AB7F1D00029FE9 /* ShowTv+CoreDataClass.swift */; };
+		1AB1A07027AB7F1D00029FE9 /* ShowTv+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A06E27AB7F1D00029FE9 /* ShowTv+CoreDataProperties.swift */; };
+		1AB1A07227AB803E00029FE9 /* DetailsShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A07127AB803E00029FE9 /* DetailsShowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,8 @@
 		1AB19FFD27AAEC7400029FE9 /* TestElerktra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestElerktra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB1A00027AAEC7400029FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB1A00227AAEC7400029FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AB1A00427AAEC7400029FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1AB1A00727AAEC7400029FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB1A00427AAEC7400029FE9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1AB1A00727AAEC7400029FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1AB1A00927AAEC7700029FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB1A00C27AAEC7700029FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB1A00E27AAEC7700029FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		1AB1A01D27AAEC7800029FE9 /* TestElerktraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestElerktraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB1A02127AAEC7800029FE9 /* TestElerktraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestElerktraUITests.swift; sourceTree = "<group>"; };
 		1AB1A02327AAEC7800029FE9 /* TestElerktraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestElerktraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AB1A03527AAEDAB00029FE9 /* TvShowsDb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TvShowsDb.xcdatamodel; sourceTree = "<group>"; };
+		1AB1A03727AAFDC200029FE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1AB1A03927AB008800029FE9 /* TvShowProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowProvider.swift; sourceTree = "<group>"; };
+		1AB1A03C27AB022000029FE9 /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
+		1AB1A04227AB141A00029FE9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		1AB1A04327AB141A00029FE9 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		1AB1A04627AB14DF00029FE9 /* TvShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowVC.swift; sourceTree = "<group>"; };
+		1AB1A04827AB14EC00029FE9 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		1AB1A05827AB254800029FE9 /* UIImage+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+LoadImage.swift"; sourceTree = "<group>"; };
+		1AB1A05F27AB2FFB00029FE9 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		1AB1A06D27AB7F1D00029FE9 /* ShowTv+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShowTv+CoreDataClass.swift"; path = "../ShowTv+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AB1A06E27AB7F1D00029FE9 /* ShowTv+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShowTv+CoreDataProperties.swift"; path = "../ShowTv+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AB1A07127AB803E00029FE9 /* DetailsShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsShowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +127,14 @@
 			children = (
 				1AB1A00027AAEC7400029FE9 /* AppDelegate.swift */,
 				1AB1A00227AAEC7400029FE9 /* SceneDelegate.swift */,
-				1AB1A00427AAEC7400029FE9 /* ViewController.swift */,
-				1AB1A00627AAEC7400029FE9 /* Main.storyboard */,
-				1AB1A00927AAEC7700029FE9 /* Assets.xcassets */,
-				1AB1A00B27AAEC7700029FE9 /* LaunchScreen.storyboard */,
+				1AB1A03027AAEC8A00029FE9 /* Model */,
+				1AB1A03127AAEC9300029FE9 /* View */,
+				1AB1A03227AAEC9D00029FE9 /* Controller */,
+				1AB1A03327AAECBF00029FE9 /* Utils */,
 				1AB1A00E27AAEC7700029FE9 /* Info.plist */,
+				1AB1A06D27AB7F1D00029FE9 /* ShowTv+CoreDataClass.swift */,
+				1AB1A06E27AB7F1D00029FE9 /* ShowTv+CoreDataProperties.swift */,
+				1AB1A03427AAEDAB00029FE9 /* TvShowsDb.xcdatamodeld */,
 			);
 			path = TestElerktra;
 			sourceTree = "<group>";
@@ -127,6 +156,80 @@
 			path = TestElerktraUITests;
 			sourceTree = "<group>";
 		};
+		1AB1A03027AAEC8A00029FE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A03C27AB022000029FE9 /* TvShow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AB1A03127AAEC9300029FE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A04127AB13F500029FE9 /* CustomsCells */,
+				1AB1A00627AAEC7400029FE9 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AB1A03227AAEC9D00029FE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A00427AAEC7400029FE9 /* HomeVC.swift */,
+				1AB1A04627AB14DF00029FE9 /* TvShowVC.swift */,
+				1AB1A04827AB14EC00029FE9 /* FavoriteVC.swift */,
+				1AB1A07127AB803E00029FE9 /* DetailsShowVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AB1A03327AAECBF00029FE9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A05E27AB2FED00029FE9 /* Helpers */,
+				1AB1A05727AB24B700029FE9 /* Extensions */,
+				1AB1A03B27AB00BB00029FE9 /* ApiServices */,
+				1AB1A00927AAEC7700029FE9 /* Assets.xcassets */,
+				1AB1A00B27AAEC7700029FE9 /* LaunchScreen.storyboard */,
+				1AB1A03727AAFDC200029FE9 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1AB1A03B27AB00BB00029FE9 /* ApiServices */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A03927AB008800029FE9 /* TvShowProvider.swift */,
+			);
+			path = ApiServices;
+			sourceTree = "<group>";
+		};
+		1AB1A04127AB13F500029FE9 /* CustomsCells */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A04227AB141A00029FE9 /* CustomTableViewCell.swift */,
+				1AB1A04327AB141A00029FE9 /* CustomTableViewCell.xib */,
+			);
+			path = CustomsCells;
+			sourceTree = "<group>";
+		};
+		1AB1A05727AB24B700029FE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A05827AB254800029FE9 /* UIImage+LoadImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AB1A05E27AB2FED00029FE9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A05F27AB2FFB00029FE9 /* DataBaseHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +246,8 @@
 			dependencies = (
 			);
 			name = TestElerktra;
+			packageProductDependencies = (
+			);
 			productName = TestElerktra;
 			productReference = 1AB19FFD27AAEC7400029FE9 /* TestElerktra.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +320,8 @@
 				Base,
 			);
 			mainGroup = 1AB19FF427AAEC7400029FE9;
+			packageReferences = (
+			);
 			productRefGroup = 1AB19FFE27AAEC7400029FE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +340,8 @@
 			files = (
 				1AB1A00D27AAEC7700029FE9 /* LaunchScreen.storyboard in Resources */,
 				1AB1A00A27AAEC7700029FE9 /* Assets.xcassets in Resources */,
-				1AB1A00827AAEC7400029FE9 /* Main.storyboard in Resources */,
+				1AB1A04527AB141A00029FE9 /* CustomTableViewCell.xib in Resources */,
+				1AB1A00827AAEC7400029FE9 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB1A00527AAEC7400029FE9 /* ViewController.swift in Sources */,
+				1AB1A06027AB2FFB00029FE9 /* DataBaseHelper.swift in Sources */,
+				1AB1A04427AB141A00029FE9 /* CustomTableViewCell.swift in Sources */,
+				1AB1A03D27AB022000029FE9 /* TvShow.swift in Sources */,
+				1AB1A04927AB14EC00029FE9 /* FavoriteVC.swift in Sources */,
+				1AB1A03827AAFDC200029FE9 /* Constants.swift in Sources */,
+				1AB1A07227AB803E00029FE9 /* DetailsShowVC.swift in Sources */,
+				1AB1A04727AB14DF00029FE9 /* TvShowVC.swift in Sources */,
+				1AB1A00527AAEC7400029FE9 /* HomeVC.swift in Sources */,
+				1AB1A06F27AB7F1D00029FE9 /* ShowTv+CoreDataClass.swift in Sources */,
+				1AB1A07027AB7F1D00029FE9 /* ShowTv+CoreDataProperties.swift in Sources */,
 				1AB1A00127AAEC7400029FE9 /* AppDelegate.swift in Sources */,
+				1AB1A03A27AB008800029FE9 /* TvShowProvider.swift in Sources */,
+				1AB1A03627AAEDAB00029FE9 /* TvShowsDb.xcdatamodeld in Sources */,
 				1AB1A00327AAEC7400029FE9 /* SceneDelegate.swift in Sources */,
+				1AB1A05927AB254800029FE9 /* UIImage+LoadImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +417,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1AB1A00627AAEC7400029FE9 /* Main.storyboard */ = {
+		1AB1A00627AAEC7400029FE9 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1AB1A00727AAEC7400029FE9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		1AB1A00B27AAEC7700029FE9 /* LaunchScreen.storyboard */ = {
@@ -444,9 +564,10 @@
 				INFOPLIST_FILE = TestElerktra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +576,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luanroad.TestElerktra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,9 +593,10 @@
 				INFOPLIST_FILE = TestElerktra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,8 +605,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luanroad.TestElerktra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +726,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AB1A03427AAEDAB00029FE9 /* TvShowsDb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AB1A03527AAEDAB00029FE9 /* TvShowsDb.xcdatamodel */,
+			);
+			currentVersion = 1AB1A03527AAEDAB00029FE9 /* TvShowsDb.xcdatamodel */;
+			path = TvShowsDb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1AB19FF527AAEC7400029FE9 /* Project object */;
 }
